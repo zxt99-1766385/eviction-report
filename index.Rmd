@@ -1,0 +1,13 @@
+---
+title: "Evictions Report"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("analysis.R")
+```
+
+This report focuses on evictions in San Francisco. The dataset contained `r num_evictions` of eviction notices. 
+
+## Zip code analysis
